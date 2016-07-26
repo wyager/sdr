@@ -17,7 +17,6 @@ module SDR.FFT (
 
 import           Control.Monad                as CM
 import           Foreign.Storable
-import           Foreign.Storable.Complex
 import           Foreign.C.Types
 import           Data.Complex
 import           Foreign.ForeignPtr

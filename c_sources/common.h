@@ -92,7 +92,7 @@ static inline __m128 avx_hadd_C(__m256 in) {
 /*
  * Complex dot products
  */
-static inline float dotprod_C(int num, float *a, float *b, float *result){
+static inline void dotprod_C(int num, float *a, float *b, float *result){
     int i;
     float real = 0;
     float imag = 0;

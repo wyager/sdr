@@ -62,7 +62,6 @@ import           Control.Monad.Primitive
 import           Unsafe.Coerce
 import           Foreign.Ptr
 import           System.IO.Unsafe
-import           Foreign.Storable.Complex
 import           Control.Monad
 import qualified System.Random.MWC as R
 import           Data.Bits
